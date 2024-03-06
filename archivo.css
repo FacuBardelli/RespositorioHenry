@@ -1,5 +1,5 @@
 body {
-    background-color: blue;
+    background-color: rgb(210, 210, 243);
 }
 article {
 background-color: white;
@@ -12,21 +12,53 @@ background-color: white;
     font-size: 2.8em;
 }
 
-h2{
-    background-color: green;
-    border: 2px solid red;
+h1{
+    background-color: rgb(25, 53, 25);
+    border: 2px solid rgb(29, 7, 7);
 }
 
 #titulos{
-    border: 2px solid red;
     width: 65vw;
     margin: auto;
-    padding: 4em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .title{
     font-size: 1.5em;
-    color:brown 
+    color:rgb(228, 163, 163) 
 }
 .logo{
     width: 300px;
+    height: 300px;
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 15%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+}
+
+.cards:hover{
+    background-color: rgb(45, 180, 140);
+}
+
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(113, 99, 99);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
